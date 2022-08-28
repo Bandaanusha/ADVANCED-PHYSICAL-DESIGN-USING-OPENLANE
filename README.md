@@ -2,7 +2,7 @@
 ## Table of Contents
 <br>[1.SOC design and Openlane]()<br>
 
-## 1.SOC design and Openlan
+## 1.SOC design and Openlane
 RTL to GDSII Flow
 - Synthesis
 - Floor/Power planning
@@ -22,3 +22,6 @@ Macros will place gate level netlist cells on vertical rows,reduce interconnect 
 Before routing the signals we need to route the clock,creating a clock distribution network to deliver clock to all sequential elements with minimum skew. Clock distribution network usually is a tree with clock source is a root and clock elements are leafs. Some clock trees are X,H,hyperloop trees.
 <br>5.Routing
 Given placement and fixed number of metal layers it is required to find the valid pattern of horizantal and vertical to implement nets that connects the cell together . Router uses the available metal layers as defined by pdk. For each metal layer the pdk defines the thickness,pitch,tracks,minimum width,ways to connect the wire segments on different metal layers together.Sky 130 define pdklocal interconnect layer
+
+## DAY 4 
+
