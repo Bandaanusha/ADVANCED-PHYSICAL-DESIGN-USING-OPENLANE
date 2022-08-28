@@ -1,8 +1,8 @@
 # ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE
 ##Table of Contents
-[1.SOC design and Openlane]()<br>
+<br>[1.SOC design and Openlane]()<br>
 
-##1.SOC design and Openlan
+## 1.SOC design and Openlan
 RTL to GDSII Flow
 - Synthesis
 - Floor/Power planning
@@ -10,6 +10,7 @@ RTL to GDSII Flow
 - Clock Tree Synthesis
 - Routing
 - Sign Off
+
 <br>1.Synthesis
 <br>Design is converted to circuits which contains components of standard cell library. The resultant of synthesis is netlist.
 <br>2.Floor Planning/Power planning
