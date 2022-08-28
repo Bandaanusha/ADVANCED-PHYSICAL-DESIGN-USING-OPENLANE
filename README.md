@@ -24,4 +24,19 @@ Before routing the signals we need to route the clock,creating a clock distribut
 Given placement and fixed number of metal layers it is required to find the valid pattern of horizantal and vertical to implement nets that connects the cell together . Router uses the available metal layers as defined by pdk. For each metal layer the pdk defines the thickness,pitch,tracks,minimum width,ways to connect the wire segments on different metal layers together.Sky 130 define pdklocal interconnect layer
 
 ## DAY 4 
+Creating Standard cell Layout and converting magic layout to standard cell lef and include new cell lef and library files to design
+```
+$ cd OpenLane
+$ git clone https://github.com/nickson-jose/vsdstdcelldesign
+$ cd vsdstdcelldesign
+$ magic -T sky130A.tech sky130_inv.mag & 
+```
+sky130_inv Layout
 
+![invmag](https://user-images.githubusercontent.com/62790565/187076922-0870f887-665d-4c0c-a8bb-4b9d8ad87e96.png)
+
+Label and define ports
+
+![portlabel](https://user-images.githubusercontent.com/62790565/187076851-4c7afd6d-07fe-4543-b95d-40d7a3f233d0.png)
+
+![setports](https://user-images.githubusercontent.com/62790565/187076879-ab61b00e-6324-490a-91bf-65079918e676.png)
